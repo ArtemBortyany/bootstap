@@ -114,6 +114,8 @@
                     <a href="http://bootstrap/14">Уроки Bootstrap верстки / #14 - tooltip.js (всплывающие подсказки)</a>
                     <br>
                     <a href="http://bootstrap/15">Уроки Bootstrap верстки / #15 - Создание сайта на Bootstrap</a>
+                    <br>
+                    <a href="http://bootstrap/Test">Тест</a>
                 </div>
             </div>
         </div>

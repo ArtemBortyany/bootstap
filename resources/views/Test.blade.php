@@ -45,10 +45,10 @@
     });
     $('#a').click(function () {
         alert('Хорошо')
-    })
+    });
 
     $(function () {
-        $('.me_test').addClass('btn-danger').removeClass('btn-danger');
+        $('.me_test').addClass('btn-danger')//.removeClass('btn-danger');
     });
 
     $("#b").click(function () {
