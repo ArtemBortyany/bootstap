@@ -22,8 +22,8 @@
             <div class="modal-body">Некий текст уведомления</div>
             <div class="modal-footer">
                 <button class="btn btn-danger" data-dismiss="modal">Закрыть</button>
-                <button class="btn btn-info" id="a" data-dismiss="modal">Ок</button>
-                <button class="btn btn-info" id="b" data-dismiss="modal">Ок</button>
+                <button class="btn btn-info" id="DemoModal" data-dismiss="modal">Ок</button>
+                <button class="btn btn-info" id="PaymentModal" data-dismiss="modal">Ок</button>
             </div>
         </div>
     </div>
@@ -43,7 +43,7 @@
     $('#myModal').on('shown.bs.modal', function (event) {
         // функции
     });
-    $('#a').click(function () {
+    $('#DemoModal').click(function () {
         alert('Хорошо')
     });
 
@@ -51,7 +51,7 @@
         $('.me_test').addClass('btn-danger')//.removeClass('btn-danger');
     });
 
-    $("#b").click(function () {
+    $("#PaymentModal").click(function () {
         $.ajax('/api/post-contact', {
             type: 'POST',  // http method
             data: {
