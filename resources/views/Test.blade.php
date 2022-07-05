@@ -55,7 +55,7 @@
         $.ajax('/api/post-contact', {
             type: 'POST',  // http method
             data: {
-                name: $('#b').val(),
+                name: $('#PaymentModal').val(),
             },
             success: function (data) {
                 console.log(data)
